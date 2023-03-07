@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		//Tabuada reversa
+		
+	     inteiro num, resultado
+
+		escreva ("Digite um numero: ")
+          leia(num)
+
+          para (inteiro w = 10; w >= 1; w--){
+          	escreva(num, "*", w , "=", resultado = num * w,"\n")
+          }
+
+		
+	}
+}
